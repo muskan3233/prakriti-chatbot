@@ -7,7 +7,7 @@ import os
 
 PATH = os.getcwd()
 
-with open(f"{PATH}\intents.json", "r") as f:
+with open(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\intents.json", "r") as f:
     intents = json.load(f)
 intents = intents["intent"]
 
@@ -32,7 +32,7 @@ df["Target"] = lb.fit_transform(df["Target"])
 df.set_index("Sentence")
 
 df.reset_index(drop=True)
-df.to_csv(f"{PATH}/dataset/sentences_intent.csv", index=False)
+df.to_csv(rf"C:\Users\Muska\Music\Prakriti-Determin\Dataset\sentences_intent.csv", index=False)
 
 X_train = df.Sentence
 y_train = df.Target
@@ -73,4 +73,4 @@ model.compile(
 )
 
 model.fit(X_train, y_train, epochs=100)
-dump(model, f"{PATH}/Models/nlm")
+dump(model, rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\nlm")

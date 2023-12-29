@@ -7,6 +7,10 @@ import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from question import questions
 
+# loading the dumped model
+PATH = os.getcwd()
+model = load(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\nlm")
+prakrit_model = load(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\trained_model")
 
 # Importing the Sentence intent .csv file
 df = pd.read_csv(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\dataset\sentences_intent.csv")
