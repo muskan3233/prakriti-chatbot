@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
-import Logo from "/home/satyendushukla/Downloads/Prakriti-Determin/frontend/src/Assets/logo.png";
+import Logo from "/home/satyendushukla/Downloads/prakriti_Determin/frontend/src/Assets/logo.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);

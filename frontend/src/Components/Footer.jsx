@@ -1,5 +1,5 @@
 import "../Styles/Footer.css";
-import Logo from "/home/satyendushukla/Downloads/Prakriti-Determin/frontend/src/Assets/logo.png";
+import Logo from "/home/satyendushukla/Downloads/prakriti_Determin/frontend/src/Assets/logo.png";
 
 function Footer() {
   return (
