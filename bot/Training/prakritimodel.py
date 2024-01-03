@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 PATH = os.getcwd()
-df = pd.read_csv(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\dataset\data.csv")
+df = pd.read_csv(rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/dataset/data.csv")
 X = df.drop(columns="Dosha")
 Y = df["Dosha"]
 
@@ -13,4 +13,4 @@ x_train, x_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
 model = RandomForestClassifier()
 model.fit(x_train, y_train)
 
-dump(model,rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\trained_model")
+dump(model,rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/models/trained_model")

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
 import "../Styles/Navbar.css";
-import Logo from "../Assets/Logo.png";
+import Logo from "/home/satyendushukla/Downloads/Prakriti-Determin/frontend/src/Assets/logo.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -22,7 +22,7 @@ function Navbar() {
       {/* Desktop */}
       <ul className="navbar-items">
         <li>
-          <a href="#" className="navbar-links">
+          <a href="#" className="navbar-links" >
             Home
           </a>
         </li>

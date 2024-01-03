@@ -11,7 +11,7 @@ import { ChatbotOpen } from "./Components/ChatbotOpen";
 function App() {
   const [open, setOpen] = useState(false);
   return (
-    <div className="App">
+    <div className="App" >
       <ChatbotOpen.Provider value={{ open, setOpen }}>
         <Navbar />
         <Front />

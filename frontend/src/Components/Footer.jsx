@@ -1,5 +1,5 @@
 import "../Styles/Footer.css";
-import Logo from "../Assets/Logo.png";
+import Logo from "/home/satyendushukla/Downloads/Prakriti-Determin/frontend/src/Assets/logo.png";
 
 function Footer() {
   return (
@@ -13,20 +13,19 @@ function Footer() {
               </a>
             </p>
             <p className="ft-description">
-              Your holistic journey to Ayurvedic well-being. Harness the wisdom
-              of Ayurveda with our chatbot, designed to personalize your path to
-              health. Discover your Prakriti, balance your doshas, and embrace a
-              harmonious life.
+              Your all encompassing excursion to Ayurvedic prosperity. Tackle
+              the insight of Ayurveda with our chatbot, intended to customize
+              your way to wellbeing. Find your Prakriti, bring your doshas into
+              balance, and embrace a life that is harmonious.
             </p>
           </div>
         </div>
 
         <div className="ft-copyright">
-          <p>© 2023 Ayurlnsights. All rights reserved.</p>
+          <p>© 2023 AyurVision. All rights reserved.</p>
         </div>
         <div className="ft-developlist">
-          Developed by Prathamesh Dhande, Chaitanya Mestry, Lonith Shetty &
-          Goutam Thakur
+          Developed by Satyendu Shukla,Vishal Singh and Sangam Yadav.
         </div>
       </div>
     </div>

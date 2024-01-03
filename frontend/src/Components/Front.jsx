@@ -8,17 +8,17 @@ function Front() {
   const { open, setOpen } = useContext(ChatbotOpen);
 
   return (
-    <div className="section-container">
+    <div className="section-container" >
       <div className="hero-section">
         <div className="text-section">
           <p className="text-headline">❤️ Health comes first</p>
           <h2 className="text-title">
-            AyurBot: Personalized Ayurvedic Wellness Chatbot
+            SwabhavAnveshak: Prakriti Anveshak Chatbot
           </h2>
           <p className="text-descritpion">
-            Discover Your Ayurvedic Balance: Experience our AI-driven chatbot
-            that determines your Prakriti and offers personalized dietary
-            guidance for holistic well-being.
+            "Investigate Your Ayurvedic Equilibrium: Our artificial intelligence
+            driven chatbot decides your Prakriti and gives customized dietary
+            direction to generally speaking prosperity."
           </p>
           <button
             className={`${

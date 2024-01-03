@@ -9,14 +9,14 @@ from question import questions
 
 # loading the dumped model
 PATH = os.getcwd()
-model = load(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\nlm")
-prakrit_model = load(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\models\trained_model")
+model = load(rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/models/nlm")
+prakrit_model = load(rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/models/trained_model")
 
 # Importing the Sentence intent .csv file
-df = pd.read_csv(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\dataset\sentences_intent.csv")
+df = pd.read_csv(rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/dataset/sentences_intent.csv")
 
 # Importing the json file for getting the responses
-with open(rf"C:\Users\Muska\Music\Prakriti-Determin\bot\intents.json", "r") as f:
+with open(rf"/home/satyendushukla/Downloads/Prakriti-Determin/bot/intents.json", "r") as f:
     intents = json.loads(f.read())["intent"]
 
 cvc = CountVectorizer(min_df=1)
